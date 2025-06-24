@@ -2,11 +2,11 @@
 
 ## 📑 Sumário
 
-- [📌 Descrição do Projeto](#descrição-do-projeto)
-- [🚦 Status do Projeto](#status-do-projeto)
-- [🛠 Funcionalidades e Demonstração](#funcionalidades-e-demonstração-da-aplicação)
-- [📂 Acesso ao Projeto](#acesso-ao-projeto)
-- [💻 Tecnologias Utilizadas](#tecnologias-utilizadas)
+- 📌 Descrição do Projeto
+- 🚦 Status do Projeto
+- 🛠 Funcionalidades e Demonstração
+- 📂 Acesso ao Projeto
+- 💻 Tecnologias Utilizadas
 ---
 
 ## 📌 Descrição do Projeto
