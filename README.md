@@ -46,7 +46,7 @@ localhost:8080/a1B2c3D
 
 ### Clone o repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/EnzoRibeiro0/encurte-me.git
 
 ### Acesse a pasta do projeto:
 cd encurte-me
