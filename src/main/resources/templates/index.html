@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encurte-me</title>
+    <link rel="icon" type="image/png" href="/images/icone.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-    <h1>Seja bem-vindo ao Encurte-me</h1>
-    
-    <h3>PÁGINA EM DESENVOLVIMENTO</h3>
+    <header class="cabecalho">
+        <img src="/images/logo.png" alt="logo encurte-me" class="logo">
+        <nav class="navegar">
+            <a href="#bloco-link" class="item-navegar">Encurte seu link</a>
+            <a href="#sobre" class="item-navegar">Sobre o projeto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Seja bem-vindo ao Encurte-me</h1>
+
+        <div class="card-base bloco-link" id="bloco-link">
+            <p>Cole seu link abaixo:</p>
+
+            <div class="input-group">
+                <input type="url" name="link" id="link" class="link" placeholder="Coloque seu link aqui...">
+                <button id="colar-link" class="btn-link" onclick="colarLink()">Colar link</button>
+            </div>
+
+            <button class="btn-encurtar" id="encurtar-link" onclick="encurtarLink()">Encurtar link</button>
+        </div>
+
+        <div class="card-base link-encurtado" id="link-encurtado">
+            <p class="url" id="url"></p>
+            <div class="link-encurtado-buttons">
+                <button id="copiar-link" class="btn-acao btn-copiar-link" onclick="copiarLink()">Copiar link</button>
+            </div>
+        </div>
+
+        <div class="card-base sobre" id="sobre">
+            <h2>Sobre o projeto</h2>
+            <p>Este é um projeto chamado Encurte-me, ele se trata de um sistema WEB feito para encurtar links de forma prática e otimizada. A interface Web foi feita utilizando HTML, CSS, JavaScript e Axios para fazer as requisições da API REST desenvolvida com <strong>Spring Boot</strong> e encurtar as URLs longas em códigos curtos únicos. Ele detecta URLs repetidas e retorna o mesmo código sem criar duplicatas, otimizando assim toda a aplicação gerando um retorno mais rápido.</p>
+        </div>
+    </main>
+
     <script src="/funcoes.js"></script>
 </body>
+
 </html>

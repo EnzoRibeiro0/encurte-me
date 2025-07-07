@@ -17,7 +17,7 @@ Este é um projeto chamado Encurte-me, ele se trata de um sistema WEB feito para
 
 ## 🚦 Status do Projeto
 
-🟡 Em desenvolvimento
+🟢 Finalizado
 
 ---
 
@@ -39,7 +39,7 @@ Acesse `http://localhost:8080/swagger-ui.html` e utilize o endpoint:
  **Resposta esperada:**
 
 ```text 
-localhost:8080/a1B2c3D
+localhost:8080/link/a1B2c3D
 ```
 ---
 ## 📂 Acesso ao Projeto
